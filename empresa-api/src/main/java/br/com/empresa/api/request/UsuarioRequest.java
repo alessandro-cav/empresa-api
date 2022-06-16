@@ -25,6 +25,9 @@ public class UsuarioRequest implements Serializable {
 	@NotBlank(message = "Sexo não pode ser em branco")
 	@NotNull(message = "Sexo é obrigatorio")
 	private String sexo;
+	
+	@NotNull(message = "Idade é obrigatorio")
+	private Integer idade;
 
 	@NotBlank(message = "Role não pode ser em branco")
 	@NotNull(message = "Role é obrigatorio")

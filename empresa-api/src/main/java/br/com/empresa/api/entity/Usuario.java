@@ -31,6 +31,8 @@ public class Usuario implements Serializable {
 	
 	private String nome;
 	
+	private Integer idade;
+	
 	private Sexo sexo;
 	
 	private Role role;

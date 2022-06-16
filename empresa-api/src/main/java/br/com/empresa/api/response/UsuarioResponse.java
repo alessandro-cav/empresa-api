@@ -13,16 +13,18 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class UsuarioResponse  implements Serializable {
+public class UsuarioResponse implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	private Long id;
-	
+
 	private String nome;
-	
+
+	private Integer idade;
+
 	private Sexo sexo;
-	
+
 	private Role role;
-	
+
 }
